@@ -1,0 +1,3 @@
+/Users/Ben/Developer/inSSIDer.iOS/Classes/WiFiScanner.m:106: warning: incomplete implementation of class 'WiFiScanner'
+/Users/Ben/Developer/inSSIDer.iOS/Classes/WiFiScanner.m:106: warning: method definition for '-setRowSsid:' not found
+/Users/Ben/Developer/inSSIDer.iOS/Classes/WiFiScanner.m:106: warning: method definition for '-setNetworksObject:ForKey:' not found
