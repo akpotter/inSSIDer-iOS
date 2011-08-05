@@ -181,7 +181,6 @@
 	ndc = [[NetworkDetailController alloc] init];
 	ndc.networkDetail = [self networkDataAtIndexPath:indexPath];
 	[self.navigationController pushViewController:ndc animated:YES];
-	[ndc release];
 	
 	selectedNetworkPath = indexPath;
 }
@@ -203,10 +202,16 @@
 }
 
 - (void)setNetworksObject:(NSString *)data ForKey:(NSString *)ssid {
-	[networks setObject:data forKey:ssid];
+	if (ssid)
+	{
+		[networks setObject:data forKey:ssid];
+	}
 }
 
 - (void)setRowSsid:(NSString *)ssid {
+	if (!ssid)
+		return;
+	
 	BOOL alreadySeen = NO;
 	
 	for(NSString *s in rows)
@@ -232,6 +237,7 @@
 - (void)dealloc {
 	[networks release];
 	[rows release];
+	[ndc release];
     [super dealloc];
 }
 

@@ -20,7 +20,7 @@
 		networkDetail = [newNetworkDetail copy];
 	}
 	self.title = networkDetail;
-	//if (textView.window) textView.text = networkDetail;
+	if (textView.window) textView.text = networkDetail;
 }
 
 - (void)loadView
@@ -78,6 +78,7 @@
 
 
 - (void)dealloc {
+	[textView dealloc];
     [super dealloc];
 }
 
