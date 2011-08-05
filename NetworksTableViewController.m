@@ -209,19 +209,19 @@
 }
 
 - (void)setRowSsid:(NSString *)ssid {
-	if (!ssid)
-		return;
-	
-	BOOL alreadySeen = NO;
-	
-	for(NSString *s in rows)
+	if (ssid)
 	{
-		if ([s isEqualToString:ssid])
-			alreadySeen = YES;
-	}
+		BOOL alreadySeen = NO;
 	
-	if(!alreadySeen)
-		[rows addObject:ssid];
+		for(NSString *s in rows)
+		{
+			if ([s isEqualToString:ssid])
+				alreadySeen = YES;
+		}
+	
+		if(!alreadySeen)
+			[rows addObject:ssid];
+	}
 }
 
 - (void)updateNetworkDetailView
