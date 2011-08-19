@@ -18,6 +18,8 @@
 	NSIndexPath *selectedNetworkPath;
 }
 
+@property (nonatomic, assign) IBOutlet UITableViewCell *networkCell;
+
 - (void)setNetworksObject:(NSString *)data ForKey:(NSString *)ssid;
 - (void)setRowSsid:(NSString *)ssid;
 - (void)addToMacAddresses:(NSString *)macAddress;

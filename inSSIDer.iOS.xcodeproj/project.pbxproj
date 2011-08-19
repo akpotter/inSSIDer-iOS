@@ -19,6 +19,7 @@
 		B51D3C2013F5941600ABD175 /* LocationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B51D3C1F13F5941600ABD175 /* LocationController.m */; };
 		B55012F013D9FDE4006BBB76 /* NetworkDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = B55012EF13D9FDE4006BBB76 /* NetworkDetailController.m */; };
 		B567C4C4137465840053B700 /* WiFiScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = B567C4C3137465840053B700 /* WiFiScanner.m */; };
+		B5B72F7013FF073700FAF3BB /* NetworkTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5B72F6F13FF073700FAF3BB /* NetworkTableViewCell.xib */; };
 		B5B9C80C13CF4ACB0066F663 /* NetworksTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B9C80B13CF4ACB0066F663 /* NetworksTableViewController.m */; };
 		B5DB5CD713EC8FC400078F09 /* WifiData.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DB5CD613EC8FC400078F09 /* WifiData.m */; };
 		B5FDB57E13C7B4C600D3BC60 /* app-inssider.ico in Resources */ = {isa = PBXBuildFile; fileRef = B5FDB57D13C7B4C600D3BC60 /* app-inssider.ico */; };
@@ -44,6 +45,7 @@
 		B55012EF13D9FDE4006BBB76 /* NetworkDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkDetailController.m; sourceTree = "<group>"; };
 		B567C4C2137465840053B700 /* WiFiScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WiFiScanner.h; sourceTree = "<group>"; };
 		B567C4C3137465840053B700 /* WiFiScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WiFiScanner.m; sourceTree = "<group>"; };
+		B5B72F6F13FF073700FAF3BB /* NetworkTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NetworkTableViewCell.xib; sourceTree = "<group>"; };
 		B5B9C80A13CF4ACB0066F663 /* NetworksTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetworksTableViewController.h; path = ../NetworksTableViewController.h; sourceTree = "<group>"; };
 		B5B9C80B13CF4ACB0066F663 /* NetworksTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetworksTableViewController.m; path = ../NetworksTableViewController.m; sourceTree = "<group>"; };
 		B5DB5CD513EC8FC400078F09 /* WifiData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WifiData.h; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B5B72F6F13FF073700FAF3BB /* NetworkTableViewCell.xib */,
 				B5FDB57D13C7B4C600D3BC60 /* app-inssider.ico */,
 				2819305F112F816700ECF9B4 /* inSSIDer_iOS.xcdatamodeld */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
@@ -189,6 +192,7 @@
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				B5FDB57E13C7B4C600D3BC60 /* app-inssider.ico in Resources */,
+				B5B72F7013FF073700FAF3BB /* NetworkTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

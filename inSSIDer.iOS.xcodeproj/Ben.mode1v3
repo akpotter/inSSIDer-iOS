@@ -276,8 +276,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>10</integer>
-									<integer>1</integer>
+									<integer>20</integer>
+									<integer>17</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -317,7 +317,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>WifiData.h</string>
+								<string>NetworksTableViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -325,11 +325,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>WifiData.h</string>
+										<string>NetworksTableViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>B5B72F5C13FEF32000FAF3BB</string>
+										<string>B5B72F6D13FF064C00FAF3BB</string>
 										<key>history</key>
 										<array>
 											<string>B5FDB48713C7755B00D3BC60</string>
@@ -340,16 +340,16 @@
 											<string>B51D3CFC13F5B48700ABD175</string>
 											<string>B5B72F3B13FEF19600FAF3BB</string>
 											<string>B5B72F3C13FEF19600FAF3BB</string>
-											<string>B5B72F3D13FEF19600FAF3BB</string>
-											<string>B5B72F3E13FEF19600FAF3BB</string>
 											<string>B5B72F3F13FEF19600FAF3BB</string>
 											<string>B5B72F4013FEF19600FAF3BB</string>
 											<string>B5B72F4313FEF19600FAF3BB</string>
 											<string>B5B72F4413FEF19600FAF3BB</string>
 											<string>B5B72F4513FEF19600FAF3BB</string>
-											<string>B5B72F5A13FEF32000FAF3BB</string>
 											<string>B5B72F5B13FEF32000FAF3BB</string>
-											<string>B5B72F4113FEF19600FAF3BB</string>
+											<string>B5B72F6913FF064C00FAF3BB</string>
+											<string>B5B72F6A13FF064C00FAF3BB</string>
+											<string>B5B72F6B13FF064C00FAF3BB</string>
+											<string>B5B72F6C13FF064C00FAF3BB</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -547,12 +547,13 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>B5B72F6E13FF064C00FAF3BB</string>
 		<string>B5B72F3613FED65400FAF3BB</string>
 		<string>B5B72EBB13FEC79B00FAF3BB</string>
 		<string>B5B72EBC13FEC79B00FAF3BB</string>
 		<string>1C530D57069F1CE1000CFCEE</string>
-		<string>B567C50213746E8F0053B700</string>
 		<string>1CD10A99069EF8BA00B06720</string>
+		<string>B567C50213746E8F0053B700</string>
 		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/Ben/Developer/inSSIDer.iOS/inSSIDer.iOS.xcodeproj</string>
 	</array>
@@ -773,7 +774,7 @@
 			<key>WindowToolGUID</key>
 			<string>1CD10A99069EF8BA00B06720</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>

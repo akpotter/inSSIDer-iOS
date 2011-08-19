@@ -16,7 +16,7 @@
 
 @implementation NetworksTableViewController
 
-@synthesize networks, rows, macAddresses;
+@synthesize networks, rows, macAddresses, networkCell;
 
 #pragma mark -
 #pragma mark Initialization
