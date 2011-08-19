@@ -7,8 +7,6 @@
 //
 
 #import "inSSIDer_iOSAppDelegate.h"
-#import "NetworksTableViewController.h"
-
 
 @implementation inSSIDer_iOSAppDelegate
 
@@ -36,7 +34,12 @@
 	
 	[myMainView addSubview:nav.view];
 	
+	networkData = [[NSMutableDictionary	alloc] init];
     wifiScanner = [[WiFiScanner alloc] init];
+	
+	myLocationController = [[LocationController alloc] init];
+	myLocationController.locationManager.desiredAccuracy = kCLLocationAccuracyNearestTenMeters;
+	[myLocationController.locationManager startUpdatingLocation];
 	
 	myQueue = dispatch_queue_create("myDispatchQueue", 0);
     [self.window makeKeyAndVisible];
@@ -99,16 +102,69 @@
 
 }
 											
-- (void)displayNewData:(NSString *)data From:(NSString *)ssid{
-	//[ntvc.rows removeObjectIdenticalTo:ssid]; //remove old ssid so there isn't a duplicate.
-	//[ntvc.rows addObject:ssid];
-	[ntvc setRowSsid:ssid];
-	//[ntvc.networks setObject:data forKey:ssid];
-	[ntvc setNetworksObject:data ForKey:ssid];
+- (void)displayNewData:(NSMutableDictionary *)data {
+	[self processRawData:data];
+	NSMutableString *dataString = [[NSMutableString alloc] init];
+	
+	for (id mac in networkData)
+	{
+		WifiData *wifiData = [networkData objectForKey:mac];
+		
+		[dataString setString:@""];
+		[dataString appendString:[NSString stringWithFormat:@"*** %@ ***\n\n", wifiData.ssid]];
+		[dataString appendString:[NSString stringWithFormat:@"Mac Address: %@ \n", wifiData.macAddress]];
+		[dataString appendString:[NSString stringWithFormat:@"RSSI: %@ \n", wifiData.rssi]];
+		[dataString appendString:[NSString stringWithFormat:@"Channel: %@ \n", wifiData.channel]];
+		[dataString appendString:[NSString stringWithFormat:@"Privacy: %@ \n", wifiData.privacy]];
+		[dataString appendString:[NSString stringWithFormat:@"First Seen: %@ \n", wifiData.firstSeen]];
+		[dataString appendString:[NSString stringWithFormat:@"Last Seen: %@ \n", wifiData.lastSeen]];
+		if(wifiData.latitude)
+			[dataString appendString:[NSString stringWithFormat:@"Latitude: %f \n", wifiData.latitude]];
+		if(wifiData.longitude)
+			[dataString appendString:[NSString stringWithFormat:@"Longitude: %f \n", wifiData.longitude]];
+		NSLog(dataString);
+		
+		[ntvc setRowSsid:wifiData.macAddress];
+		[ntvc setNetworksObject:dataString ForKey:wifiData.macAddress];
+	}
+	
+	[dataString release];
+	//[ntvc setRowSsid:ssid];
+	
+	//[ntvc setNetworksObject:data ForKey:ssid];
 	[ntvc.tableView reloadData];
 	[ntvc updateNetworkDetailView];
-	//[ntvc.tableView insertRowsAtIndexPaths:[NSArray arrayWithObject:[NSIndexPath indexPathForRow:[ntvc.rows indexOfObject:ssid] inSection:0]] withRowAnimation:UITableViewRowAnimationNone];
-	//[ntvc.tableView reloadData];
+}
+
+- (void)processRawData:(NSMutableDictionary *)rawData {
+	WifiData *wifiData;
+	
+	for (id key in rawData){
+		wifiData = [networkData objectForKey:key];
+		if(wifiData == nil) {
+			wifiData = [[WifiData alloc] init];
+			wifiData.ssid = [[NSString alloc] initWithString:[[rawData objectForKey: key] objectForKey:@"SSID_STR"]];
+			wifiData.macAddress = key;
+			wifiData.firstSeen = [NSDate date];
+		}
+		wifiData.rssi = (int)[[rawData objectForKey: key] objectForKey:@"RSSI"];
+		wifiData.channel = (int)[[rawData objectForKey: key] objectForKey:@"CHANNEL"];
+		if ([[rawData objectForKey: key] objectForKey:@"WEP"]) {
+			wifiData.privacy = @"WEP";
+		}
+		else {
+			wifiData.privacy = @"none";
+		}
+		//wifiData.maxRate = [[[rawData objectForKey: key] objectForKey:@"RATES"] GetLastIndexOfValue];
+		int age = (int)[[rawData objectForKey: key] objectForKey:@"AGE"];
+		if(age == 0) {
+			wifiData.lastSeen = [NSDate date];
+		}
+		wifiData.latitude = myLocationController.locationManager.location.coordinate.latitude;
+		wifiData.longitude = myLocationController.locationManager.location.coordinate.longitude;
+		
+		[networkData setObject:wifiData forKey:wifiData.macAddress];
+	}
 }
 
 - (void)saveContext {

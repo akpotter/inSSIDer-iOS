@@ -10,8 +10,12 @@
 #import <CoreData/CoreData.h>
 #import "WiFiScanner.h"
 #import "NetworksTableViewController.h"
+#import "WifiData.h"
+#import "LocationController.h"
 
 @interface inSSIDer_iOSAppDelegate : NSObject <UIApplicationDelegate> {
+	NSMutableDictionary *networkData;
+	LocationController *myLocationController;
     
     UIWindow *window;
 	NSNotificationCenter *nc;
@@ -38,8 +42,9 @@
 @property (nonatomic, retain, readonly) NSPersistentStoreCoordinator *persistentStoreCoordinator;
 
 - (IBAction)myScanButtonPressed:(id)sender;
-- (void)displayNewData:(NSString *)data From:(NSString *)ssid;
+- (void)displayNewData:(NSMutableDictionary *)data;
 - (NSURL *)applicationDocumentsDirectory;
+- (void)processRawData:(NSMutableDictionary *)rawData;
 - (void)saveContext;
 
 @end

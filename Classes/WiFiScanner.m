@@ -68,9 +68,9 @@
 
 - (void)displayNetworkData {
 	
-	NSMutableString *result;
+	//NSMutableString *result;
 	
-	for (id key in networks){
+	/*for (id key in networks){
 		result = [[NSMutableString alloc] initWithString:@""];
 		[result appendString:[NSString stringWithFormat:@"*** %@ ***\n\n",
 							   [[networks objectForKey: key] objectForKey:@"SSID_STR"]
@@ -80,10 +80,9 @@
 		{
 			[result appendString:[NSString stringWithFormat:@"\n%@: %@\n---------------------", key2, [[networks objectForKey:key] objectForKey:key2]]];
 		}
-		dispatch_async(dispatch_get_main_queue(), ^{ [appDelegate displayNewData:result From:[[networks objectForKey: key] objectForKey:@"SSID_STR"]]; });
 		[result release];
 		//[result appendString:@"------\n\n"];
-		/*[result appendString:[NSString stringWithFormat:@"%@ (%@)\n\t RSSI: %@\n\t Channel: %@\n\t WEP enabled: %@\n\t Age: %@\n\t rates: %@\n\n", 
+		[result appendString:[NSString stringWithFormat:@"%@ (%@)\n\t RSSI: %@\n\t Channel: %@\n\t WEP enabled: %@\n\t Age: %@\n\t rates: %@\n\n", 
 							  [[networks objectForKey: key] objectForKey:@"SSID_STR"], //Station Name
 							  key, //Station BBSID (MAC Address)
 							  [[networks objectForKey: key] objectForKey:@"RSSI"], //Signal Strength
@@ -91,8 +90,9 @@
 							  [[networks objectForKey: key] objectForKey:@"WEP"],	//indicates whether the network is WEP enabled
 							  [[networks objectForKey: key] objectForKey:@"AGE"],
 							  [[networks objectForKey: key] objectForKey:@"RATES"]
-							  ]];*/
-	}
+							  ]];
+	}*/
+	dispatch_async(dispatch_get_main_queue(), ^{ [appDelegate displayNewData:networks]; });
 	
 }
 
