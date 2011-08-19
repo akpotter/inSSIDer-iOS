@@ -9,9 +9,9 @@
 	};
 	1D3623250D0F684500981E51 /* inSSIDer_iOSAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1965, 4121}}";
-			sepNavSelRange = "{4729, 0}";
-			sepNavVisRange = "{3329, 2732}";
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 4134}}";
+			sepNavSelRange = "{4713, 0}";
+			sepNavVisRange = "{3329, 2702}";
 			sepNavWindowFrame = "{{38, 474}, {750, 558}}";
 		};
 	};
@@ -32,8 +32,8 @@
 		breakpoints = (
 			B51D3C9013F5A75A00ABD175 /* WiFiScanner.m:95 */,
 			B51D3C9B13F5A7AA00ABD175 /* inSSIDer_iOSAppDelegate.m:106 */,
-			B51D3DBF13F5DAB100ABD175 /* inSSIDer_iOSAppDelegate.m:161 */,
-			B51D3DC313F5DB3000ABD175 /* inSSIDer_iOSAppDelegate.m:159 */,
+			B51D3DBF13F5DAB100ABD175 /* inSSIDer_iOSAppDelegate.m:162 */,
+			B51D3DC313F5DB3000ABD175 /* inSSIDer_iOSAppDelegate.m:160 */,
 		);
 		codeSenseManager = B567C4BF1374616C0053B700 /* Code sense */;
 		executables = (
@@ -144,6 +144,14 @@
 			B5B72E8E13FEC11600FAF3BB /* PBXTextBookmark */ = B5B72E8E13FEC11600FAF3BB /* PBXTextBookmark */;
 			B5B72E8F13FEC11600FAF3BB /* PBXTextBookmark */ = B5B72E8F13FEC11600FAF3BB /* PBXTextBookmark */;
 			B5B72E9113FEC11600FAF3BB /* PBXTextBookmark */ = B5B72E9113FEC11600FAF3BB /* PBXTextBookmark */;
+			B5B72EB213FEC79B00FAF3BB /* PBXTextBookmark */ = B5B72EB213FEC79B00FAF3BB /* PBXTextBookmark */;
+			B5B72EB313FEC79B00FAF3BB /* PBXTextBookmark */ = B5B72EB313FEC79B00FAF3BB /* PBXTextBookmark */;
+			B5B72EB413FEC79B00FAF3BB /* PBXTextBookmark */ = B5B72EB413FEC79B00FAF3BB /* PBXTextBookmark */;
+			B5B72EB513FEC79B00FAF3BB /* PBXTextBookmark */ = B5B72EB513FEC79B00FAF3BB /* PBXTextBookmark */;
+			B5B72EB613FEC79B00FAF3BB /* PBXTextBookmark */ = B5B72EB613FEC79B00FAF3BB /* PBXTextBookmark */;
+			B5B72EB713FEC79B00FAF3BB /* PBXTextBookmark */ = B5B72EB713FEC79B00FAF3BB /* PBXTextBookmark */;
+			B5B72EB813FEC79B00FAF3BB /* PBXTextBookmark */ = B5B72EB813FEC79B00FAF3BB /* PBXTextBookmark */;
+			B5B72EB913FEC79B00FAF3BB /* PBXTextBookmark */ = B5B72EB913FEC79B00FAF3BB /* PBXTextBookmark */;
 			B5B9C7DF13CE10460066F663 = B5B9C7DF13CE10460066F663 /* PlistBookmark */;
 			B5FDB48713C7755B00D3BC60 = B5FDB48713C7755B00D3BC60 /* PBXTextBookmark */;
 		};
@@ -193,7 +201,7 @@
 		ignoreCount = 0;
 		lineNumber = 95;
 		location = inSSIDer.iOS;
-		modificationTime = 335463453.225794;
+		modificationTime = 335465692.480383;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -211,7 +219,7 @@
 		ignoreCount = 0;
 		lineNumber = 106;
 		location = inSSIDer.iOS;
-		modificationTime = 335463453.225894;
+		modificationTime = 335465692.480482;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -322,7 +330,7 @@
 		vrLen = 1612;
 		vrLoc = 0;
 	};
-	B51D3DBF13F5DAB100ABD175 /* inSSIDer_iOSAppDelegate.m:161 */ = {
+	B51D3DBF13F5DAB100ABD175 /* inSSIDer_iOSAppDelegate.m:162 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
 		);
@@ -334,13 +342,13 @@
 		functionName = "-processRawData:";
 		hitCount = 0;
 		ignoreCount = 0;
-		lineNumber = 161;
+		lineNumber = 162;
 		location = inSSIDer.iOS;
-		modificationTime = 335463453.225912;
+		modificationTime = 335465692.480597;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
-	B51D3DC313F5DB3000ABD175 /* inSSIDer_iOSAppDelegate.m:159 */ = {
+	B51D3DC313F5DB3000ABD175 /* inSSIDer_iOSAppDelegate.m:160 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
 		);
@@ -352,9 +360,9 @@
 		functionName = "-processRawData:";
 		hitCount = 0;
 		ignoreCount = 0;
-		lineNumber = 159;
+		lineNumber = 160;
 		location = inSSIDer.iOS;
-		modificationTime = 335463453.22595;
+		modificationTime = 335465692.480675;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -363,7 +371,7 @@
 		fRef = B5B9C80B13CF4ACB0066F663 /* NetworksTableViewController.m */;
 		name = "NetworksTableViewController.m: 223";
 		rLen = 0;
-		rLoc = 6488;
+		rLoc = 6762;
 		rType = 0;
 		vrLen = 1980;
 		vrLoc = 1133;
@@ -383,7 +391,7 @@
 		fRef = B51D3D4F13F5CE4D00ABD175 /* inSSIDer_iOSAppDelegate.m */;
 		name = "inSSIDer_iOSAppDelegate.m: 128";
 		rLen = 0;
-		rLoc = 4793;
+		rLoc = 4766;
 		rType = 0;
 		vrLen = 2510;
 		vrLoc = 2844;
@@ -393,7 +401,7 @@
 		fRef = 1D3623250D0F684500981E51 /* inSSIDer_iOSAppDelegate.m */;
 		name = "inSSIDer_iOSAppDelegate.m: 124";
 		rLen = 0;
-		rLoc = 4595;
+		rLoc = 4598;
 		rType = 0;
 		vrLen = 2772;
 		vrLoc = 3444;
@@ -540,7 +548,7 @@
 		fRef = 1D3623250D0F684500981E51 /* inSSIDer_iOSAppDelegate.m */;
 		name = "inSSIDer_iOSAppDelegate.m: 124";
 		rLen = 0;
-		rLoc = 4595;
+		rLoc = 4598;
 		rType = 0;
 		vrLen = 2697;
 		vrLoc = 3444;
@@ -563,7 +571,7 @@
 		fRef = 1D3623250D0F684500981E51 /* inSSIDer_iOSAppDelegate.m */;
 		name = "inSSIDer_iOSAppDelegate.m: 127";
 		rLen = 4;
-		rLoc = 4658;
+		rLoc = 4663;
 		rType = 0;
 		vrLen = 1810;
 		vrLoc = 3723;
@@ -572,7 +580,7 @@
 		isa = PBXTextBookmark;
 		fRef = B5B72E7F13FEBB9600FAF3BB /* NetworksTableViewController.m */;
 		rLen = 12;
-		rLoc = 2346;
+		rLoc = 2604;
 		rType = 0;
 	};
 	B5B72E8513FEBC0900FAF3BB /* PBXTextBookmark */ = {
@@ -633,7 +641,7 @@
 		fRef = B5B72E8B13FEC0DC00FAF3BB /* NetworksTableViewController.m */;
 		name = "NetworksTableViewController.m: 240";
 		rLen = 8;
-		rLoc = 6975;
+		rLoc = 7249;
 		rType = 0;
 		vrLen = 517;
 		vrLoc = 6275;
@@ -677,6 +685,86 @@
 		vrLen = 878;
 		vrLoc = 132;
 	};
+	B5B72EB213FEC79B00FAF3BB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B567C4C3137465840053B700 /* WiFiScanner.m */;
+		name = "WiFiScanner.m: 69";
+		rLen = 0;
+		rLoc = 1628;
+		rType = 0;
+		vrLen = 2402;
+		vrLoc = 686;
+	};
+	B5B72EB313FEC79B00FAF3BB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B5DB5CD613EC8FC400078F09 /* WifiData.m */;
+		name = "WifiData.m: 38";
+		rLen = 0;
+		rLoc = 569;
+		rType = 0;
+		vrLen = 697;
+		vrLoc = 0;
+	};
+	B5B72EB413FEC79B00FAF3BB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B55012EE13D9FDE4006BBB76 /* NetworkDetailController.h */;
+		name = "NetworkDetailController.h: 17";
+		rLen = 0;
+		rLoc = 324;
+		rType = 0;
+		vrLen = 331;
+		vrLoc = 0;
+	};
+	B5B72EB513FEC79B00FAF3BB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B5B9C80A13CF4ACB0066F663 /* NetworksTableViewController.h */;
+		name = "NetworksTableViewController.h: 26";
+		rLen = 0;
+		rLoc = 707;
+		rType = 0;
+		vrLen = 747;
+		vrLoc = 0;
+	};
+	B5B72EB613FEC79B00FAF3BB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B5DB5CEF13EC9F9C00078F09 /* inSSIDer_iOSAppDelegate.h */;
+		name = "inSSIDer_iOSAppDelegate.h: 47";
+		rLen = 0;
+		rLoc = 1536;
+		rType = 0;
+		vrLen = 1612;
+		vrLoc = 0;
+	};
+	B5B72EB713FEC79B00FAF3BB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* inSSIDer_iOSAppDelegate.m */;
+		name = "inSSIDer_iOSAppDelegate.m: 125";
+		rLen = 0;
+		rLoc = 4630;
+		rType = 0;
+		vrLen = 2734;
+		vrLoc = 3329;
+	};
+	B5B72EB813FEC79B00FAF3BB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B5B9C80B13CF4ACB0066F663 /* NetworksTableViewController.m */;
+		name = "NetworksTableViewController.m: 197";
+		rLen = 0;
+		rLoc = 6179;
+		rType = 0;
+		vrLen = 2200;
+		vrLoc = 1507;
+	};
+	B5B72EB913FEC79B00FAF3BB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B5B9C80B13CF4ACB0066F663 /* NetworksTableViewController.m */;
+		name = "NetworksTableViewController.m: 185";
+		rLen = 0;
+		rLoc = 5857;
+		rType = 0;
+		vrLen = 2079;
+		vrLoc = 4485;
+	};
 	B5B9C7DF13CE10460066F663 /* PlistBookmark */ = {
 		isa = PlistBookmark;
 		fRef = 8D1107310486CEB800E47090 /* inSSIDer_iOS-Info.plist */;
@@ -699,9 +787,9 @@
 	};
 	B5B9C80B13CF4ACB0066F663 /* NetworksTableViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1309, 3367}}";
-			sepNavSelRange = "{325, 4}";
-			sepNavVisRange = "{0, 1491}";
+			sepNavIntBoundsRect = "{{0, 0}, {1309, 3406}}";
+			sepNavSelRange = "{2572, 0}";
+			sepNavVisRange = "{4943, 1919}";
 			sepNavWindowFrame = "{{59, 453}, {750, 558}}";
 		};
 	};
@@ -725,6 +813,11 @@
 		name = inSSIDer_iOSAppDelegate.h;
 		path = /Users/Ben/Developer/inSSIDer.iOS/Classes/inSSIDer_iOSAppDelegate.h;
 		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1309, 892}}";
+			sepNavSelRange = "{1536, 0}";
+			sepNavVisRange = "{0, 1612}";
+		};
 	};
 	B5FDB46913C773C900D3BC60 /* queue.h */ = {
 		isa = PBXFileReference;

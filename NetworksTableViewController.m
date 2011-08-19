@@ -94,8 +94,14 @@
 
 - (NSString *)networkDataAtIndexPath:(NSIndexPath *)indexPath
 {
+	//NSLog(@"%@", [macAddresses objectAtIndex:indexPath.row]);
+	//NSLog(@"%@", [networks valueForKey:[macAddresses objectAtIndex:indexPath.row]]);
+	/*for (id key in networks)
+	{
+		NSLog(@"Key: %@", key);
+		NSLog(@"Value: %@", [networks valueForKey:key]);
+	}*/
 	return [networks valueForKey:[macAddresses objectAtIndex:indexPath.row]];
-	//return [rows objectAtIndex:indexPath.row];
 }
 
 // Customize the appearance of table view cells.
@@ -181,7 +187,9 @@
     */
 	
 	ndc = [[NetworkDetailController alloc] init];
+	NSLog(@"%d", indexPath);
 	ndc.networkDetail = [self networkDataAtIndexPath:indexPath];
+	//NSLog(@"%@", ndc.networkDetail);
 	[self.navigationController pushViewController:ndc animated:YES];
 	
 	selectedNetworkPath = indexPath;

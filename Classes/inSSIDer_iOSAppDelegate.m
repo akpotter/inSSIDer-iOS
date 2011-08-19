@@ -104,12 +104,13 @@
 											
 - (void)displayNewData:(NSMutableDictionary *)data {
 	[self processRawData:data];
-	NSMutableString *dataString = [[NSMutableString alloc] init];
+	
 	
 	for (id mac in networkData)
 	{
 		WifiData *wifiData = [networkData objectForKey:mac];
 		
+		NSMutableString *dataString = [[NSMutableString alloc] init];
 		[dataString setString:@""];
 		[dataString appendString:[NSString stringWithFormat:@"*** %@ ***\n\n", wifiData.ssid]];
 		[dataString appendString:[NSString stringWithFormat:@"Mac Address: %@ \n", wifiData.macAddress]];
@@ -122,14 +123,14 @@
 			[dataString appendString:[NSString stringWithFormat:@"Latitude: %f \n", wifiData.latitude]];
 		if(wifiData.longitude)
 			[dataString appendString:[NSString stringWithFormat:@"Longitude: %f \n", wifiData.longitude]];
-		NSLog(dataString);
+		//NSLog(dataString);
 		
 		[ntvc setRowSsid:wifiData.ssid];
-		[ntvc addToMacAddresses:wifiData.macAddress];
-		[ntvc setNetworksObject:dataString ForKey:wifiData.macAddress];
+		[ntvc addToMacAddresses:mac];
+		[ntvc setNetworksObject:dataString ForKey:mac];
+		[dataString release];
 	}
 	
-	[dataString release];
 	//[ntvc setRowSsid:ssid];
 	
 	//[ntvc setNetworksObject:data ForKey:ssid];
