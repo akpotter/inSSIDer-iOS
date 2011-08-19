@@ -22,12 +22,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
     
-    // Override point for customization after application launch.
 	[[UIApplication sharedApplication] setStatusBarHidden:YES];
 	
 	UINavigationController *nav = [[UINavigationController alloc] init];
 	nav.navigationBar.barStyle = UIBarStyleBlackTranslucent;
-	//.translucent = YES;
 	[nav pushViewController:ntvc animated:NO];
 	nav.view.frame = myMainView.frame;
 	[ntvc release];
@@ -123,7 +121,6 @@
 			[dataString appendString:[NSString stringWithFormat:@"Latitude: %f \n", wifiData.latitude]];
 		if(wifiData.longitude)
 			[dataString appendString:[NSString stringWithFormat:@"Longitude: %f \n", wifiData.longitude]];
-		//NSLog(dataString);
 		
 		[ntvc setRowSsid:wifiData.ssid];
 		[ntvc addToMacAddresses:mac];
@@ -131,9 +128,6 @@
 		[dataString release];
 	}
 	
-	//[ntvc setRowSsid:ssid];
-	
-	//[ntvc setNetworksObject:data ForKey:ssid];
 	[ntvc.tableView reloadData];
 	[ntvc updateNetworkDetailView];
 }
@@ -158,7 +152,7 @@
 			wifiData.privacy = @"none";
 		}
 		//wifiData.maxRate = [[[rawData objectForKey: key] objectForKey:@"RATES"] GetLastIndexOfValue];
-		int age = (int)[[rawData objectForKey: key] objectForKey:@"AGE"];
+		int age = [[[rawData objectForKey: key] objectForKey:@"AGE"] intValue];
 		if(age == 0) {
 			wifiData.lastSeen = [NSDate date];
 		}

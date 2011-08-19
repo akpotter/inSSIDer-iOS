@@ -274,7 +274,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>7</integer>
+									<integer>3</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -317,7 +317,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>NetworksTableViewController.m</string>
+								<string>inSSIDer_iOSAppDelegate.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -325,11 +325,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>NetworksTableViewController.m</string>
+										<string>inSSIDer_iOSAppDelegate.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>B5B72EB913FEC79B00FAF3BB</string>
+										<string>B5B72F2F13FED58F00FAF3BB</string>
 										<key>history</key>
 										<array>
 											<string>B5FDB48713C7755B00D3BC60</string>
@@ -343,13 +343,13 @@
 											<string>B51D3D5613F5CEA800ABD175</string>
 											<string>B51D3D5713F5CEA800ABD175</string>
 											<string>B51D3D9A13F5D74B00ABD175</string>
-											<string>B5B72EB213FEC79B00FAF3BB</string>
 											<string>B5B72EB313FEC79B00FAF3BB</string>
 											<string>B5B72EB413FEC79B00FAF3BB</string>
 											<string>B5B72EB513FEC79B00FAF3BB</string>
-											<string>B5B72EB613FEC79B00FAF3BB</string>
-											<string>B5B72EB713FEC79B00FAF3BB</string>
-											<string>B5B72EB813FEC79B00FAF3BB</string>
+											<string>B5B72F2B13FED58F00FAF3BB</string>
+											<string>B5B72F2C13FED58F00FAF3BB</string>
+											<string>B5B72F2D13FED58F00FAF3BB</string>
+											<string>B5B72F2E13FED58F00FAF3BB</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>

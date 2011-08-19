@@ -18,9 +18,6 @@
 	NSIndexPath *selectedNetworkPath;
 }
 
-//@property (nonatomic, retain) NSMutableDictionary *networks;
-//@property (nonatomic, retain) NSMutableArray *rows;
-
 - (void)setNetworksObject:(NSString *)data ForKey:(NSString *)ssid;
 - (void)setRowSsid:(NSString *)ssid;
 - (void)addToMacAddresses:(NSString *)macAddress;

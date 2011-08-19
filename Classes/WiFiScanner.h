@@ -14,7 +14,6 @@
 @interface WiFiScanner : NSObject {
 	NSMutableDictionary *networks; //Key: MAC Address (BSSID)
 	
-	//dispatch_queue_t myQueue;
 	void *libHandle;
 	void *airportHandle;    
 	int (*apple80211Open)(void *);
@@ -24,7 +23,6 @@
 	int (*apple80211Scan)(void *, NSArray **, void *);
 }
 
-//@property (nonatomic, retain) NSDictionary *networks;
 @property (nonatomic, retain) inSSIDer_iOSAppDelegate *appDelegate;
 @property (nonatomic) bool isScanning;
 
