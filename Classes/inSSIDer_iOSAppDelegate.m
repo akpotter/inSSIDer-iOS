@@ -112,9 +112,10 @@
 		[dataString setString:@""];
 		[dataString appendString:[NSString stringWithFormat:@"*** %@ ***\n\n", wifiData.ssid]];
 		[dataString appendString:[NSString stringWithFormat:@"Mac Address: %@ \n", wifiData.macAddress]];
-		[dataString appendString:[NSString stringWithFormat:@"RSSI: %@ \n", wifiData.rssi]];
-		[dataString appendString:[NSString stringWithFormat:@"Channel: %@ \n", wifiData.channel]];
+		[dataString appendString:[NSString stringWithFormat:@"RSSI: %d \n", wifiData.rssi]];
+		[dataString appendString:[NSString stringWithFormat:@"Channel: %d \n", wifiData.channel]];
 		[dataString appendString:[NSString stringWithFormat:@"Privacy: %@ \n", wifiData.privacy]];
+		[dataString appendString:[NSString stringWithFormat:@"Max Rate: %d \n", wifiData.maxRate]];
 		[dataString appendString:[NSString stringWithFormat:@"First Seen: %@ \n", wifiData.firstSeen]];
 		[dataString appendString:[NSString stringWithFormat:@"Last Seen: %@ \n", wifiData.lastSeen]];
 		if(wifiData.latitude)
@@ -143,15 +144,15 @@
 			wifiData.macAddress = key;
 			wifiData.firstSeen = [NSDate date];
 		}
-		wifiData.rssi = (int)[[rawData objectForKey: key] objectForKey:@"RSSI"];
-		wifiData.channel = (int)[[rawData objectForKey: key] objectForKey:@"CHANNEL"];
+		wifiData.rssi = [[[rawData objectForKey: key] objectForKey:@"RSSI"] intValue];
+		wifiData.channel = [[[rawData objectForKey: key] objectForKey:@"CHANNEL"] intValue];
 		if ([[rawData objectForKey: key] objectForKey:@"WEP"]) {
 			wifiData.privacy = @"WEP";
 		}
 		else {
 			wifiData.privacy = @"none";
 		}
-		//wifiData.maxRate = [[[rawData objectForKey: key] objectForKey:@"RATES"] GetLastIndexOfValue];
+		wifiData.maxRate = [[[[rawData objectForKey: key] objectForKey:@"RATES"] lastObject] intValue];
 		int age = [[[rawData objectForKey: key] objectForKey:@"AGE"] intValue];
 		if(age == 0) {
 			wifiData.lastSeen = [NSDate date];

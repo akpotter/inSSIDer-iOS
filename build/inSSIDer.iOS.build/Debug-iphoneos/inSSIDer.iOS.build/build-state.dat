@@ -1,7 +1,7 @@
 TinSSIDer.iOS
 v7
 r0
-t335467936.030657
+t335475750.610773
 cCheck dependencies
 cCpResource build/Debug-iphoneos/inSSIDer.iOS.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
 cProcessInfoPlistFile /Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos/inSSIDer.iOS.app/Info.plist inSSIDer_iOS-Info.plist
@@ -119,9 +119,9 @@ t1287718017
 s2844
 
 N/Users/Ben/Developer/inSSIDer.iOS/Classes/../NetworksTableViewController.m
-c000000004E4E97700000000000001C7F
-t1313773424
-s7295
+c000000004E4EA2A00000000000001B7D
+t1313776288
+s7037
 i"NetworksTableViewController.h"
 
 N/Users/Ben/Developer/inSSIDer.iOS/Classes/LocationController.h
@@ -131,8 +131,8 @@ s616
 i<Foundation/Foundation.h>
 
 N/Users/Ben/Developer/inSSIDer.iOS/Classes/LocationController.m
-c000000004E4594F1000000000000039D
-t1313182961
+c000000004E4EA2D5000000000000039D
+t1313776341
 s925
 i"LocationController.h"
 
@@ -166,17 +166,17 @@ t1310675709
 s5699
 
 N/Users/Ben/Developer/inSSIDer.iOS/Classes/WiFiScanner.h
-c000000004E3C5703000000000000036F
-t1312577283
-s879
+c000000004E4EA25F000000000000031A
+t1313776223
+s794
 i<Foundation/Foundation.h>
 i<CoreFoundation/CoreFoundation.h>
 i<dlfcn.h>
 
 N/Users/Ben/Developer/inSSIDer.iOS/Classes/WiFiScanner.m
-c000000004E456F240000000000000C17
-t1313173284
-s3095
+c000000004E4EA2420000000000000BAC
+t1313776194
+s2988
 i"WiFiScanner.h"
 i"inSSIDer_iOSAppDelegate.h"
 
@@ -204,9 +204,9 @@ i"WifiData.h"
 i"LocationController.h"
 
 N/Users/Ben/Developer/inSSIDer.iOS/Classes/inSSIDer_iOSAppDelegate.m
-c000000004E4E9E000000000000002CF7
-t1313775104
-s11511
+c000000004E4EBC170000000000002D08
+t1313782807
+s11528
 i"inSSIDer_iOSAppDelegate.h"
 
 N/Users/Ben/Developer/inSSIDer.iOS/MainWindow.xib
@@ -215,9 +215,9 @@ t1311368897
 s29131
 
 N/Users/Ben/Developer/inSSIDer.iOS/NetworksTableViewController.h
-c000000004E4E8BE600000000000002EB
-t1313770470
-s747
+c000000004E4EA2510000000000000275
+t1313776209
+s629
 i<UIKit/UIKit.h>
 i"NetworkDetailController.h"
 
@@ -233,11 +233,11 @@ t1296070864
 s45126
 
 N/Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos/inSSIDer.iOS.app
-t1313775132
+t1313782809
 s408
 
 N/Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos/inSSIDer.iOS.app.dSYM
-t1313775131
+t1313782809
 s102
 
 N/Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos/inSSIDer.iOS.app/Info.plist
@@ -269,7 +269,7 @@ t1313164425
 s16446
 
 N/Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos/inSSIDer.iOS.app/inSSIDer.iOS
-t1313775131
+t1313782809
 s141408
 
 N/Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos/inSSIDer.iOS.app/inSSIDer_iOS.momd
@@ -277,7 +277,7 @@ t1304702645
 s136
 
 N/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv6/LocationController.o
-t1313182987
+t1313776618
 s13408
 
 N/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv6/LocationManagerController.o
@@ -289,11 +289,11 @@ t1313168192
 s43656
 
 N/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv6/NetworksTableViewController.o
-t1313773536
-s54408
+t1313776618
+s54368
 
 N/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv6/WiFiScanner.o
-t1313775041
+t1313776618
 s57964
 
 N/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv6/WifiData.o
@@ -301,7 +301,7 @@ t1313185236
 s17760
 
 N/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv6/inSSIDer.iOS
-t1313775131
+t1313782809
 s61520
 
 N/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv6/inSSIDer.iOS.LinkFileList
@@ -310,15 +310,15 @@ t1313168191
 s933
 
 N/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv6/inSSIDer_iOSAppDelegate.o
-t1313775131
-s85148
+t1313782809
+s85848
 
 N/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv6/main.o
 t1313168192
 s6436
 
 N/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv7/LocationController.o
-t1313182987
+t1313776618
 s13332
 
 N/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv7/LocationManagerController.o
@@ -330,11 +330,11 @@ t1313168192
 s43560
 
 N/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv7/NetworksTableViewController.o
-t1313773536
-s54148
+t1313776618
+s54108
 
 N/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv7/WiFiScanner.o
-t1313775041
+t1313776618
 s57756
 
 N/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv7/WifiData.o
@@ -342,7 +342,7 @@ t1313185236
 s17552
 
 N/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv7/inSSIDer.iOS
-t1313775131
+t1313782809
 s61348
 
 N/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv7/inSSIDer.iOS.LinkFileList
@@ -351,8 +351,8 @@ t1313168191
 s933
 
 N/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv7/inSSIDer_iOSAppDelegate.o
-t1313775131
-s84356
+t1313782809
+s85056
 
 N/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv7/main.o
 t1313168192
@@ -421,20 +421,20 @@ s918
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies335467935#335467935#0(0"0(0#1#0"8644528224#0"0#
+lSLF07#2@18"Check dependencies335475750#335475750#0(0"0(0#1#0"8626098400#0"0#
 
 CCodeSign /Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos/inSSIDer.iOS.app
-s335467935.877425
-e335467936.030631
+s335475750.452813
+e335475750.610731
 r1
 xCodeSign
 x/Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos/inSSIDer.iOS.app
 o/Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos/inSSIDer.iOS.app: replacing existing signature
-lSLF07#2@46"CodeSign build/Debug-iphoneos/inSSIDer.iOS.app335467935#335467936#0(102"/Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos/inSSIDer.iOS.app: replacing existing signature0(0#0#71"/Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos/inSSIDer.iOS.app8633734976#650"    cd /Users/Ben/Developer/inSSIDer.iOS    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Ben Bower (7H8CP7H4P5)" --resource-rules=/Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos/inSSIDer.iOS.app/ResourceRules.plist --entitlements /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS.xcent /Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos/inSSIDer.iOS.app0#
+lSLF07#2@46"CodeSign build/Debug-iphoneos/inSSIDer.iOS.app335475750#335475750#0(102"/Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos/inSSIDer.iOS.app: replacing existing signature0(0#0#71"/Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos/inSSIDer.iOS.app8645721856#650"    cd /Users/Ben/Developer/inSSIDer.iOS    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Ben Bower (7H8CP7H4P5)" --resource-rules=/Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos/inSSIDer.iOS.app/ResourceRules.plist --entitlements /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS.xcent /Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos/inSSIDer.iOS.app0#
 
 CCompileC build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv6/LocationController.o /Users/Ben/Developer/inSSIDer.iOS/Classes/LocationController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s334875787.387070
-e334875787.476975
+s335469418.484959
+e335469418.573410
 r1
 xCompileC
 xbuild/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv6/LocationController.o
@@ -443,7 +443,7 @@ xnormal
 xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@70"Compile /Users/Ben/Developer/inSSIDer.iOS/Classes/LocationController.m334875787#334875787#0(0"0(0#0#62"/Users/Ben/Developer/inSSIDer.iOS/Classes/LocationController.m8668388896#1805"    cd /Users/Ben/Developer/inSSIDer.iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-generated-files.hmap -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-own-target-headers.hmap -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-all-target-headers.hmap -iquote /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-project-headers.hmap -F/Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos -I/Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos/include -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/DerivedSources/armv6 -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/DerivedSources -include /var/folders/Kj/KjLMGhnfFwOJiNBcTPPmpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/inSSIDer_iOS_Prefix-cwvoknhydivjbsdkzlvbiyzjqcrq/inSSIDer_iOS_Prefix.pch -c /Users/Ben/Developer/inSSIDer.iOS/Classes/LocationController.m -o /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv6/LocationController.o0#
+lSLF07#2@70"Compile /Users/Ben/Developer/inSSIDer.iOS/Classes/LocationController.m335469418#335469418#0(0"0(0#0#62"/Users/Ben/Developer/inSSIDer.iOS/Classes/LocationController.m8643172352#1805"    cd /Users/Ben/Developer/inSSIDer.iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-generated-files.hmap -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-own-target-headers.hmap -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-all-target-headers.hmap -iquote /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-project-headers.hmap -F/Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos -I/Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos/include -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/DerivedSources/armv6 -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/DerivedSources -include /var/folders/Kj/KjLMGhnfFwOJiNBcTPPmpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/inSSIDer_iOS_Prefix-cwvoknhydivjbsdkzlvbiyzjqcrq/inSSIDer_iOS_Prefix.pch -c /Users/Ben/Developer/inSSIDer.iOS/Classes/LocationController.m -o /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv6/LocationController.o0#
 
 CCompileC build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv6/LocationManagerController.o /Users/Ben/Developer/inSSIDer.iOS/Classes/LocationManagerController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 r0
@@ -462,8 +462,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@75"Compile /Users/Ben/Developer/inSSIDer.iOS/Classes/NetworkDetailController.m334860992#334860992#0(0"0(0#0#67"/Users/Ben/Developer/inSSIDer.iOS/Classes/NetworkDetailController.m8616871712#1815"    cd /Users/Ben/Developer/inSSIDer.iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-generated-files.hmap -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-own-target-headers.hmap -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-all-target-headers.hmap -iquote /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-project-headers.hmap -F/Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos -I/Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos/include -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/DerivedSources/armv6 -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/DerivedSources -include /var/folders/Kj/KjLMGhnfFwOJiNBcTPPmpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/inSSIDer_iOS_Prefix-cwvoknhydivjbsdkzlvbiyzjqcrq/inSSIDer_iOS_Prefix.pch -c /Users/Ben/Developer/inSSIDer.iOS/Classes/NetworkDetailController.m -o /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv6/NetworkDetailController.o0#
 
 CCompileC build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv6/NetworksTableViewController.o /Users/Ben/Developer/inSSIDer.iOS/Classes/../NetworksTableViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s335466336.385768
-e335466336.511499
+s335469418.437203
+e335469418.598581
 r1
 xCompileC
 xbuild/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv6/NetworksTableViewController.o
@@ -472,14 +472,14 @@ xnormal
 xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@82"Compile /Users/Ben/Developer/inSSIDer.iOS/Classes/../NetworksTableViewController.m335466336#335466336#0(0"0(0#0#74"/Users/Ben/Developer/inSSIDer.iOS/Classes/../NetworksTableViewController.m8617843552#1826"    cd /Users/Ben/Developer/inSSIDer.iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-generated-files.hmap -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-own-target-headers.hmap -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-all-target-headers.hmap -iquote /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-project-headers.hmap -F/Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos -I/Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos/include -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/DerivedSources/armv6 -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/DerivedSources -include /var/folders/Kj/KjLMGhnfFwOJiNBcTPPmpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/inSSIDer_iOS_Prefix-cwvoknhydivjbsdkzlvbiyzjqcrq/inSSIDer_iOS_Prefix.pch -c /Users/Ben/Developer/inSSIDer.iOS/Classes/../NetworksTableViewController.m -o /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv6/NetworksTableViewController.o0#
+lSLF07#2@82"Compile /Users/Ben/Developer/inSSIDer.iOS/Classes/../NetworksTableViewController.m335469418#335469418#0(0"0(0#0#74"/Users/Ben/Developer/inSSIDer.iOS/Classes/../NetworksTableViewController.m8634351072#1826"    cd /Users/Ben/Developer/inSSIDer.iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-generated-files.hmap -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-own-target-headers.hmap -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-all-target-headers.hmap -iquote /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-project-headers.hmap -F/Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos -I/Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos/include -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/DerivedSources/armv6 -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/DerivedSources -include /var/folders/Kj/KjLMGhnfFwOJiNBcTPPmpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/inSSIDer_iOS_Prefix-cwvoknhydivjbsdkzlvbiyzjqcrq/inSSIDer_iOS_Prefix.pch -c /Users/Ben/Developer/inSSIDer.iOS/Classes/../NetworksTableViewController.m -o /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv6/NetworksTableViewController.o0#
 
 CCompileC build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv6/NetworksTableViewController.o /Users/Ben/Developer/inSSIDer.iOS/NetworksTableViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 r0
 
 CCompileC build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv6/WiFiScanner.o /Users/Ben/Developer/inSSIDer.iOS/Classes/WiFiScanner.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s335467840.936664
-e335467841.024759
+s335469418.436491
+e335469418.573763
 r1
 xCompileC
 xbuild/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv6/WiFiScanner.o
@@ -488,7 +488,7 @@ xnormal
 xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@63"Compile /Users/Ben/Developer/inSSIDer.iOS/Classes/WiFiScanner.m335467840#335467841#0(0"0(0#0#55"/Users/Ben/Developer/inSSIDer.iOS/Classes/WiFiScanner.m8636228448#1791"    cd /Users/Ben/Developer/inSSIDer.iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-generated-files.hmap -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-own-target-headers.hmap -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-all-target-headers.hmap -iquote /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-project-headers.hmap -F/Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos -I/Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos/include -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/DerivedSources/armv6 -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/DerivedSources -include /var/folders/Kj/KjLMGhnfFwOJiNBcTPPmpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/inSSIDer_iOS_Prefix-cwvoknhydivjbsdkzlvbiyzjqcrq/inSSIDer_iOS_Prefix.pch -c /Users/Ben/Developer/inSSIDer.iOS/Classes/WiFiScanner.m -o /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv6/WiFiScanner.o0#
+lSLF07#2@63"Compile /Users/Ben/Developer/inSSIDer.iOS/Classes/WiFiScanner.m335469418#335469418#0(0"0(0#0#55"/Users/Ben/Developer/inSSIDer.iOS/Classes/WiFiScanner.m8637949056#1791"    cd /Users/Ben/Developer/inSSIDer.iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-generated-files.hmap -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-own-target-headers.hmap -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-all-target-headers.hmap -iquote /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-project-headers.hmap -F/Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos -I/Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos/include -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/DerivedSources/armv6 -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/DerivedSources -include /var/folders/Kj/KjLMGhnfFwOJiNBcTPPmpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/inSSIDer_iOS_Prefix-cwvoknhydivjbsdkzlvbiyzjqcrq/inSSIDer_iOS_Prefix.pch -c /Users/Ben/Developer/inSSIDer.iOS/Classes/WiFiScanner.m -o /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv6/WiFiScanner.o0#
 
 CCompileC build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv6/WifiData.o /Users/Ben/Developer/inSSIDer.iOS/Classes/WifiData.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s334878036.359523
@@ -504,8 +504,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@60"Compile /Users/Ben/Developer/inSSIDer.iOS/Classes/WifiData.m334878036#334878036#0(0"0(0#0#52"/Users/Ben/Developer/inSSIDer.iOS/Classes/WifiData.m8653845376#1785"    cd /Users/Ben/Developer/inSSIDer.iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-generated-files.hmap -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-own-target-headers.hmap -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-all-target-headers.hmap -iquote /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-project-headers.hmap -F/Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos -I/Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos/include -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/DerivedSources/armv6 -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/DerivedSources -include /var/folders/Kj/KjLMGhnfFwOJiNBcTPPmpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/inSSIDer_iOS_Prefix-cwvoknhydivjbsdkzlvbiyzjqcrq/inSSIDer_iOS_Prefix.pch -c /Users/Ben/Developer/inSSIDer.iOS/Classes/WifiData.m -o /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv6/WifiData.o0#
 
 CCompileC build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv6/inSSIDer_iOSAppDelegate.o /Users/Ben/Developer/inSSIDer.iOS/Classes/inSSIDer_iOSAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s335467931.427493
-e335467931.563140
+s335475609.205276
+e335475609.509018
 r1
 xCompileC
 xbuild/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv6/inSSIDer_iOSAppDelegate.o
@@ -514,7 +514,7 @@ xnormal
 xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@75"Compile /Users/Ben/Developer/inSSIDer.iOS/Classes/inSSIDer_iOSAppDelegate.m335467931#335467931#0(0"0(0#0#67"/Users/Ben/Developer/inSSIDer.iOS/Classes/inSSIDer_iOSAppDelegate.m8616351968#1815"    cd /Users/Ben/Developer/inSSIDer.iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-generated-files.hmap -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-own-target-headers.hmap -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-all-target-headers.hmap -iquote /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-project-headers.hmap -F/Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos -I/Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos/include -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/DerivedSources/armv6 -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/DerivedSources -include /var/folders/Kj/KjLMGhnfFwOJiNBcTPPmpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/inSSIDer_iOS_Prefix-cwvoknhydivjbsdkzlvbiyzjqcrq/inSSIDer_iOS_Prefix.pch -c /Users/Ben/Developer/inSSIDer.iOS/Classes/inSSIDer_iOSAppDelegate.m -o /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv6/inSSIDer_iOSAppDelegate.o0#
+lSLF07#2@75"Compile /Users/Ben/Developer/inSSIDer.iOS/Classes/inSSIDer_iOSAppDelegate.m335475609#335475609#0(0"0(0#0#67"/Users/Ben/Developer/inSSIDer.iOS/Classes/inSSIDer_iOSAppDelegate.m8619826176#1815"    cd /Users/Ben/Developer/inSSIDer.iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-generated-files.hmap -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-own-target-headers.hmap -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-all-target-headers.hmap -iquote /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-project-headers.hmap -F/Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos -I/Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos/include -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/DerivedSources/armv6 -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/DerivedSources -include /var/folders/Kj/KjLMGhnfFwOJiNBcTPPmpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/inSSIDer_iOS_Prefix-cwvoknhydivjbsdkzlvbiyzjqcrq/inSSIDer_iOS_Prefix.pch -c /Users/Ben/Developer/inSSIDer.iOS/Classes/inSSIDer_iOSAppDelegate.m -o /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv6/inSSIDer_iOSAppDelegate.o0#
 
 CCompileC build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv6/main.o /Users/Ben/Developer/inSSIDer.iOS/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s334860992.602935
@@ -530,8 +530,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@48"Compile /Users/Ben/Developer/inSSIDer.iOS/main.m334860992#334860992#0(0"0(0#0#40"/Users/Ben/Developer/inSSIDer.iOS/main.m8626008320#1769"    cd /Users/Ben/Developer/inSSIDer.iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-generated-files.hmap -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-own-target-headers.hmap -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-all-target-headers.hmap -iquote /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-project-headers.hmap -F/Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos -I/Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos/include -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/DerivedSources/armv6 -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/DerivedSources -include /var/folders/Kj/KjLMGhnfFwOJiNBcTPPmpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/inSSIDer_iOS_Prefix-cwvoknhydivjbsdkzlvbiyzjqcrq/inSSIDer_iOS_Prefix.pch -c /Users/Ben/Developer/inSSIDer.iOS/main.m -o /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv6/main.o0#
 
 CCompileC build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv7/LocationController.o /Users/Ben/Developer/inSSIDer.iOS/Classes/LocationController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s334875787.431219
-e334875787.486055
+s335469418.489179
+e335469418.574024
 r1
 xCompileC
 xbuild/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv7/LocationController.o
@@ -540,7 +540,7 @@ xnormal
 xarmv7
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@70"Compile /Users/Ben/Developer/inSSIDer.iOS/Classes/LocationController.m334875787#334875787#0(0"0(0#0#62"/Users/Ben/Developer/inSSIDer.iOS/Classes/LocationController.m8665296416#1805"    cd /Users/Ben/Developer/inSSIDer.iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-generated-files.hmap -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-own-target-headers.hmap -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-all-target-headers.hmap -iquote /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-project-headers.hmap -F/Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos -I/Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos/include -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/DerivedSources/armv7 -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/DerivedSources -include /var/folders/Kj/KjLMGhnfFwOJiNBcTPPmpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/inSSIDer_iOS_Prefix-dsizvlwwffelqeeynnzbcblmbmdy/inSSIDer_iOS_Prefix.pch -c /Users/Ben/Developer/inSSIDer.iOS/Classes/LocationController.m -o /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv7/LocationController.o0#
+lSLF07#2@70"Compile /Users/Ben/Developer/inSSIDer.iOS/Classes/LocationController.m335469418#335469418#0(0"0(0#0#62"/Users/Ben/Developer/inSSIDer.iOS/Classes/LocationController.m8633013760#1805"    cd /Users/Ben/Developer/inSSIDer.iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-generated-files.hmap -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-own-target-headers.hmap -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-all-target-headers.hmap -iquote /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-project-headers.hmap -F/Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos -I/Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos/include -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/DerivedSources/armv7 -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/DerivedSources -include /var/folders/Kj/KjLMGhnfFwOJiNBcTPPmpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/inSSIDer_iOS_Prefix-dsizvlwwffelqeeynnzbcblmbmdy/inSSIDer_iOS_Prefix.pch -c /Users/Ben/Developer/inSSIDer.iOS/Classes/LocationController.m -o /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv7/LocationController.o0#
 
 CCompileC build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv7/LocationManagerController.o /Users/Ben/Developer/inSSIDer.iOS/Classes/LocationManagerController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 r0
@@ -559,8 +559,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@75"Compile /Users/Ben/Developer/inSSIDer.iOS/Classes/NetworkDetailController.m334860992#334860992#0(0"0(0#0#67"/Users/Ben/Developer/inSSIDer.iOS/Classes/NetworkDetailController.m8616468096#1815"    cd /Users/Ben/Developer/inSSIDer.iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-generated-files.hmap -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-own-target-headers.hmap -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-all-target-headers.hmap -iquote /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-project-headers.hmap -F/Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos -I/Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos/include -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/DerivedSources/armv7 -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/DerivedSources -include /var/folders/Kj/KjLMGhnfFwOJiNBcTPPmpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/inSSIDer_iOS_Prefix-dsizvlwwffelqeeynnzbcblmbmdy/inSSIDer_iOS_Prefix.pch -c /Users/Ben/Developer/inSSIDer.iOS/Classes/NetworkDetailController.m -o /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv7/NetworkDetailController.o0#
 
 CCompileC build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv7/NetworksTableViewController.o /Users/Ben/Developer/inSSIDer.iOS/Classes/../NetworksTableViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s335466336.424505
-e335466336.516185
+s335469418.487289
+e335469418.598956
 r1
 xCompileC
 xbuild/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv7/NetworksTableViewController.o
@@ -569,14 +569,14 @@ xnormal
 xarmv7
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@82"Compile /Users/Ben/Developer/inSSIDer.iOS/Classes/../NetworksTableViewController.m335466336#335466336#0(0"0(0#0#74"/Users/Ben/Developer/inSSIDer.iOS/Classes/../NetworksTableViewController.m8616909184#1826"    cd /Users/Ben/Developer/inSSIDer.iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-generated-files.hmap -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-own-target-headers.hmap -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-all-target-headers.hmap -iquote /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-project-headers.hmap -F/Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos -I/Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos/include -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/DerivedSources/armv7 -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/DerivedSources -include /var/folders/Kj/KjLMGhnfFwOJiNBcTPPmpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/inSSIDer_iOS_Prefix-dsizvlwwffelqeeynnzbcblmbmdy/inSSIDer_iOS_Prefix.pch -c /Users/Ben/Developer/inSSIDer.iOS/Classes/../NetworksTableViewController.m -o /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv7/NetworksTableViewController.o0#
+lSLF07#2@82"Compile /Users/Ben/Developer/inSSIDer.iOS/Classes/../NetworksTableViewController.m335469418#335469418#0(0"0(0#0#74"/Users/Ben/Developer/inSSIDer.iOS/Classes/../NetworksTableViewController.m8634973440#1826"    cd /Users/Ben/Developer/inSSIDer.iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-generated-files.hmap -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-own-target-headers.hmap -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-all-target-headers.hmap -iquote /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-project-headers.hmap -F/Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos -I/Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos/include -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/DerivedSources/armv7 -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/DerivedSources -include /var/folders/Kj/KjLMGhnfFwOJiNBcTPPmpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/inSSIDer_iOS_Prefix-dsizvlwwffelqeeynnzbcblmbmdy/inSSIDer_iOS_Prefix.pch -c /Users/Ben/Developer/inSSIDer.iOS/Classes/../NetworksTableViewController.m -o /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv7/NetworksTableViewController.o0#
 
 CCompileC build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv7/NetworksTableViewController.o /Users/Ben/Developer/inSSIDer.iOS/NetworksTableViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 r0
 
 CCompileC build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv7/WiFiScanner.o /Users/Ben/Developer/inSSIDer.iOS/Classes/WiFiScanner.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s335467840.955122
-e335467841.055955
+s335469418.486582
+e335469418.591127
 r1
 xCompileC
 xbuild/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv7/WiFiScanner.o
@@ -585,7 +585,7 @@ xnormal
 xarmv7
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@63"Compile /Users/Ben/Developer/inSSIDer.iOS/Classes/WiFiScanner.m335467840#335467841#0(0"0(0#0#55"/Users/Ben/Developer/inSSIDer.iOS/Classes/WiFiScanner.m8614130304#1791"    cd /Users/Ben/Developer/inSSIDer.iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-generated-files.hmap -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-own-target-headers.hmap -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-all-target-headers.hmap -iquote /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-project-headers.hmap -F/Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos -I/Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos/include -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/DerivedSources/armv7 -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/DerivedSources -include /var/folders/Kj/KjLMGhnfFwOJiNBcTPPmpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/inSSIDer_iOS_Prefix-dsizvlwwffelqeeynnzbcblmbmdy/inSSIDer_iOS_Prefix.pch -c /Users/Ben/Developer/inSSIDer.iOS/Classes/WiFiScanner.m -o /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv7/WiFiScanner.o0#
+lSLF07#2@63"Compile /Users/Ben/Developer/inSSIDer.iOS/Classes/WiFiScanner.m335469418#335469418#0(0"0(0#0#55"/Users/Ben/Developer/inSSIDer.iOS/Classes/WiFiScanner.m8637771040#1791"    cd /Users/Ben/Developer/inSSIDer.iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-generated-files.hmap -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-own-target-headers.hmap -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-all-target-headers.hmap -iquote /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-project-headers.hmap -F/Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos -I/Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos/include -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/DerivedSources/armv7 -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/DerivedSources -include /var/folders/Kj/KjLMGhnfFwOJiNBcTPPmpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/inSSIDer_iOS_Prefix-dsizvlwwffelqeeynnzbcblmbmdy/inSSIDer_iOS_Prefix.pch -c /Users/Ben/Developer/inSSIDer.iOS/Classes/WiFiScanner.m -o /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv7/WiFiScanner.o0#
 
 CCompileC build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv7/WifiData.o /Users/Ben/Developer/inSSIDer.iOS/Classes/WifiData.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 s334878036.362681
@@ -601,8 +601,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@60"Compile /Users/Ben/Developer/inSSIDer.iOS/Classes/WifiData.m334878036#334878036#0(0"0(0#0#52"/Users/Ben/Developer/inSSIDer.iOS/Classes/WifiData.m8649680960#1785"    cd /Users/Ben/Developer/inSSIDer.iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-generated-files.hmap -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-own-target-headers.hmap -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-all-target-headers.hmap -iquote /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-project-headers.hmap -F/Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos -I/Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos/include -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/DerivedSources/armv7 -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/DerivedSources -include /var/folders/Kj/KjLMGhnfFwOJiNBcTPPmpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/inSSIDer_iOS_Prefix-dsizvlwwffelqeeynnzbcblmbmdy/inSSIDer_iOS_Prefix.pch -c /Users/Ben/Developer/inSSIDer.iOS/Classes/WifiData.m -o /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv7/WifiData.o0#
 
 CCompileC build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv7/inSSIDer_iOSAppDelegate.o /Users/Ben/Developer/inSSIDer.iOS/Classes/inSSIDer_iOSAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s335467931.458451
-e335467931.553417
+s335475609.249723
+e335475609.509784
 r1
 xCompileC
 xbuild/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv7/inSSIDer_iOSAppDelegate.o
@@ -611,7 +611,7 @@ xnormal
 xarmv7
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@75"Compile /Users/Ben/Developer/inSSIDer.iOS/Classes/inSSIDer_iOSAppDelegate.m335467931#335467931#0(0"0(0#0#67"/Users/Ben/Developer/inSSIDer.iOS/Classes/inSSIDer_iOSAppDelegate.m8636258688#1815"    cd /Users/Ben/Developer/inSSIDer.iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-generated-files.hmap -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-own-target-headers.hmap -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-all-target-headers.hmap -iquote /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-project-headers.hmap -F/Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos -I/Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos/include -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/DerivedSources/armv7 -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/DerivedSources -include /var/folders/Kj/KjLMGhnfFwOJiNBcTPPmpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/inSSIDer_iOS_Prefix-dsizvlwwffelqeeynnzbcblmbmdy/inSSIDer_iOS_Prefix.pch -c /Users/Ben/Developer/inSSIDer.iOS/Classes/inSSIDer_iOSAppDelegate.m -o /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv7/inSSIDer_iOSAppDelegate.o0#
+lSLF07#2@75"Compile /Users/Ben/Developer/inSSIDer.iOS/Classes/inSSIDer_iOSAppDelegate.m335475609#335475609#0(0"0(0#0#67"/Users/Ben/Developer/inSSIDer.iOS/Classes/inSSIDer_iOSAppDelegate.m8644874592#1815"    cd /Users/Ben/Developer/inSSIDer.iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-generated-files.hmap -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-own-target-headers.hmap -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-all-target-headers.hmap -iquote /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS-project-headers.hmap -F/Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos -I/Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos/include -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/DerivedSources/armv7 -I/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/DerivedSources -include /var/folders/Kj/KjLMGhnfFwOJiNBcTPPmpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/inSSIDer_iOS_Prefix-dsizvlwwffelqeeynnzbcblmbmdy/inSSIDer_iOS_Prefix.pch -c /Users/Ben/Developer/inSSIDer.iOS/Classes/inSSIDer_iOSAppDelegate.m -o /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv7/inSSIDer_iOSAppDelegate.o0#
 
 CCompileC build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv7/main.o /Users/Ben/Developer/inSSIDer.iOS/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 s334860992.621553
@@ -657,14 +657,14 @@ xapp-inssider.ico
 lSLF07#2@21"Copy app-inssider.ico331855074#331855074#0(0"0(0#0#50"/Users/Ben/Developer/inSSIDer.iOS/app-inssider.ico28429264710336596#450"    cd /Users/Ben/Developer/inSSIDer.iOS    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Ben/Developer/inSSIDer.iOS/app-inssider.ico /Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos/inSSIDer.iOS.app0#
 
 CCreateUniversalBinary /Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos/inSSIDer.iOS.app/inSSIDer.iOS normal "armv6 armv7"
-s335467931.601555
-e335467931.604482
+s335475609.535656
+e335475609.538505
 r1
 xCreateUniversalBinary
 x/Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos/inSSIDer.iOS.app/inSSIDer.iOS
 xnormal
 xarmv6 armv7
-lSLF07#2@93"CreateUniversalBinary build/Debug-iphoneos/inSSIDer.iOS.app/inSSIDer.iOS normal "armv6 armv7"335467931#335467931#0(0"0(0#0#45"/Users/Ben/Developer/inSSIDer.iOS/armv6 armv78638863488#538"    cd /Users/Ben/Developer/inSSIDer.iOS    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv6/inSSIDer.iOS /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv7/inSSIDer.iOS -output /Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos/inSSIDer.iOS.app/inSSIDer.iOS0#
+lSLF07#2@93"CreateUniversalBinary build/Debug-iphoneos/inSSIDer.iOS.app/inSSIDer.iOS normal "armv6 armv7"335475609#335475609#0(0"0(0#0#45"/Users/Ben/Developer/inSSIDer.iOS/armv6 armv78604322304#538"    cd /Users/Ben/Developer/inSSIDer.iOS    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv6/inSSIDer.iOS /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv7/inSSIDer.iOS -output /Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos/inSSIDer.iOS.app/inSSIDer.iOS0#
 
 CDataModelVersionCompile /Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos/inSSIDer.iOS.app/inSSIDer_iOS.momd /Users/Ben/Developer/inSSIDer.iOS/inSSIDer_iOS.xcdatamodeld
 s326395444.751933
@@ -676,33 +676,33 @@ x/Users/Ben/Developer/inSSIDer.iOS/inSSIDer_iOS.xcdatamodeld
 lSLF07#2@105"DataModelVersionCompile build/Debug-iphoneos/inSSIDer.iOS.app/inSSIDer_iOS.momd inSSIDer_iOS.xcdatamodeld326395444#326395445#0(0"0(0#0#59"/Users/Ben/Developer/inSSIDer.iOS/inSSIDer_iOS.xcdatamodeld8621764512#343"    cd /Users/Ben/Developer/inSSIDer.iOS    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/momc /Users/Ben/Developer/inSSIDer.iOS/inSSIDer_iOS.xcdatamodeld /Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos/inSSIDer.iOS.app/inSSIDer_iOS.momd0#
 
 CGenerateDSYMFile /Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos/inSSIDer.iOS.app.dSYM /Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos/inSSIDer.iOS.app/inSSIDer.iOS
-s335467931.604574
-e335467931.670588
+s335475609.538608
+e335475609.567591
 r1
 xGenerateDSYMFile
 x/Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos/inSSIDer.iOS.app.dSYM
 x/Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos/inSSIDer.iOS.app/inSSIDer.iOS
-lSLF07#2@110"GenerateDSYMFile build/Debug-iphoneos/inSSIDer.iOS.app.dSYM build/Debug-iphoneos/inSSIDer.iOS.app/inSSIDer.iOS335467931#335467931#0(0"0(0#0#84"/Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos/inSSIDer.iOS.app/inSSIDer.iOS8621914848#362"    cd /Users/Ben/Developer/inSSIDer.iOS    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos/inSSIDer.iOS.app/inSSIDer.iOS -o /Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos/inSSIDer.iOS.app.dSYM0#
+lSLF07#2@110"GenerateDSYMFile build/Debug-iphoneos/inSSIDer.iOS.app.dSYM build/Debug-iphoneos/inSSIDer.iOS.app/inSSIDer.iOS335475609#335475609#0(0"0(0#0#84"/Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos/inSSIDer.iOS.app/inSSIDer.iOS8645282976#362"    cd /Users/Ben/Developer/inSSIDer.iOS    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos/inSSIDer.iOS.app/inSSIDer.iOS -o /Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos/inSSIDer.iOS.app.dSYM0#
 
 CLd /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv6/inSSIDer.iOS normal armv6
-s335467931.563198
-e335467931.601485
+s335475609.509083
+e335475609.535327
 r1
 xLd
 x/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv6/inSSIDer.iOS
 xnormal
 xarmv6
-lSLF07#2@131"Link /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv6/inSSIDer.iOS335467931#335467931#0(0"0(0#0#0"8633641472#908"    cd /Users/Ben/Developer/inSSIDer.iOS    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos -F/Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos -filelist /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv6/inSSIDer.iOS.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -framework CoreLocation -o /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv6/inSSIDer.iOS0#
+lSLF07#2@131"Link /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv6/inSSIDer.iOS335475609#335475609#0(0"0(0#0#0"8643252640#908"    cd /Users/Ben/Developer/inSSIDer.iOS    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos -F/Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos -filelist /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv6/inSSIDer.iOS.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -framework CoreLocation -o /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv6/inSSIDer.iOS0#
 
 CLd /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv7/inSSIDer.iOS normal armv7
-s335467931.553488
-e335467931.601215
+s335475609.509847
+e335475609.535597
 r1
 xLd
 x/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv7/inSSIDer.iOS
 xnormal
 xarmv7
-lSLF07#2@131"Link /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv7/inSSIDer.iOS335467931#335467931#0(0"0(0#0#0"8618077280#908"    cd /Users/Ben/Developer/inSSIDer.iOS    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos -F/Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos -filelist /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv7/inSSIDer.iOS.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -framework CoreLocation -o /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv7/inSSIDer.iOS0#
+lSLF07#2@131"Link /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv7/inSSIDer.iOS335475609#335475609#0(0"0(0#0#0"8632967744#908"    cd /Users/Ben/Developer/inSSIDer.iOS    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos -F/Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos -filelist /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv7/inSSIDer.iOS.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -framework CoreLocation -o /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/Objects-normal/armv7/inSSIDer.iOS0#
 
 CProcessInfoPlistFile /Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos/inSSIDer.iOS.app/Info.plist inSSIDer_iOS-Info.plist
 s331855167.800149
@@ -802,10 +802,10 @@ x/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSI
 lSLF07#2@190"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS.xcent334857225#334857225#0(0"0(0#0#111"/Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS.xcent8612673280#437"    cd /Users/Ben/Developer/inSSIDer.iOS    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/Ben/Developer/inSSIDer.iOS/build/inSSIDer.iOS.build/Debug-iphoneos/inSSIDer.iOS.build/inSSIDer.iOS.xcent0#
 
 CTouch /Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos/inSSIDer.iOS.app
-s335467931.670734
-e335467931.672641
+s335475609.567746
+e335475609.569605
 r1
 xTouch
 x/Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos/inSSIDer.iOS.app
-lSLF07#2@77"Touch /Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos/inSSIDer.iOS.app335467931#335467931#0(0"0(0#0#0"8636704736#259"    cd /Users/Ben/Developer/inSSIDer.iOS    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos/inSSIDer.iOS.app0#
+lSLF07#2@77"Touch /Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos/inSSIDer.iOS.app335475609#335475609#0(0"0(0#0#0"8646669344#259"    cd /Users/Ben/Developer/inSSIDer.iOS    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/Ben/Developer/inSSIDer.iOS/build/Debug-iphoneos/inSSIDer.iOS.app0#
 
