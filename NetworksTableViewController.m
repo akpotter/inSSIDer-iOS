@@ -11,11 +11,12 @@
 @interface NetworksTableViewController()
 @property (retain) NSMutableDictionary *networks;
 @property (retain) NSMutableArray *rows;
+@property (retain) NSMutableArray *macAddresses;
 @end
 
 @implementation NetworksTableViewController
 
-@synthesize networks, rows;
+@synthesize networks, rows, macAddresses;
 
 #pragma mark -
 #pragma mark Initialization
@@ -41,6 +42,7 @@
 	
 	networks = [[NSMutableDictionary alloc] init];
 	rows = [[NSMutableArray alloc] init];
+	macAddresses = [[NSMutableArray alloc] init];
 	
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
@@ -92,7 +94,7 @@
 
 - (NSString *)networkDataAtIndexPath:(NSIndexPath *)indexPath
 {
-	return [networks valueForKey:[rows objectAtIndex:indexPath.row]];
+	return [networks valueForKey:[macAddresses objectAtIndex:indexPath.row]];
 	//return [rows objectAtIndex:indexPath.row];
 }
 
@@ -201,10 +203,10 @@
     // For example: self.myOutlet = nil;
 }
 
-- (void)setNetworksObject:(NSString *)data ForKey:(NSString *)ssid {
-	if (ssid)
+- (void)setNetworksObject:(NSString *)data ForKey:(NSString *)macAddress {
+	if (macAddress)
 	{
-		[networks setObject:data forKey:ssid];
+		[networks setObject:data forKey:macAddress];
 	}
 }
 
@@ -224,6 +226,22 @@
 	}
 }
 
+- (void)addToMacAddresses:(NSString *)macAddress {
+	if (macAddress)
+	{
+		BOOL alreadySeen = NO;
+		
+		for(NSString *s in macAddresses)
+		{
+			if ([s isEqualToString:macAddress])
+				alreadySeen = YES;
+		}
+		
+		if(!alreadySeen)
+			[macAddresses addObject:macAddress];
+	}
+}
+
 - (void)updateNetworkDetailView
 {
 	if (ndc.view.window)
@@ -237,6 +255,7 @@
 - (void)dealloc {
 	[networks release];
 	[rows release];
+	[macAddresses release];
 	[ndc release];
     [super dealloc];
 }

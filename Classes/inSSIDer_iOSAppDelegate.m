@@ -124,7 +124,8 @@
 			[dataString appendString:[NSString stringWithFormat:@"Longitude: %f \n", wifiData.longitude]];
 		NSLog(dataString);
 		
-		[ntvc setRowSsid:wifiData.macAddress];
+		[ntvc setRowSsid:wifiData.ssid];
+		[ntvc addToMacAddresses:wifiData.macAddress];
 		[ntvc setNetworksObject:dataString ForKey:wifiData.macAddress];
 	}
 	

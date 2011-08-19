@@ -13,6 +13,7 @@
 @interface NetworksTableViewController : UITableViewController {
 	NSMutableDictionary *networks;
 	NSMutableArray *rows;
+	NSMutableArray *macAddresses;
 	NetworkDetailController *ndc;
 	NSIndexPath *selectedNetworkPath;
 }
@@ -22,6 +23,7 @@
 
 - (void)setNetworksObject:(NSString *)data ForKey:(NSString *)ssid;
 - (void)setRowSsid:(NSString *)ssid;
+- (void)addToMacAddresses:(NSString *)macAddress;
 - (void)updateNetworkDetailView;
 
 @end
