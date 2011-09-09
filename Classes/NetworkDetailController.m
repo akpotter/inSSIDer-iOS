@@ -28,6 +28,7 @@
 	textView = [[UITextView alloc] initWithFrame:[[UIScreen mainScreen] applicationFrame]];
 	textView.backgroundColor = [UIColor blackColor];
 	textView.textColor = [UIColor whiteColor];
+	textView.editable = NO;
 	self.view = textView;
 }
 

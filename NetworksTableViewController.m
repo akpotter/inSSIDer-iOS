@@ -43,6 +43,7 @@
 	networks = [[NSMutableDictionary alloc] init];
 	rows = [[NSMutableArray alloc] init];
 	macAddresses = [[NSMutableArray alloc] init];
+	wifiDataDictionary = [[NSMutableDictionary alloc] init];
 	
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
@@ -102,18 +103,32 @@
     
 	tableView.separatorColor = [UIColor blackColor];
 	
-    static NSString *CellIdentifier = @"NetworksTableViewCell";
+    static NSString *CellIdentifier = @"NetworkCellIdentifier";
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
+        [[NSBundle mainBundle] loadNibNamed:@"NetworkTableViewCell" owner:self options:nil];
+        cell = networkCell;
+        self.networkCell = nil;
     }
+	
+	WifiData *data = [wifiDataDictionary objectForKey:[macAddresses objectAtIndex:indexPath.row]];
+	
+	UILabel *label;
+	label = (UILabel *)[cell viewWithTag:1];
+	label.text = [NSString stringWithFormat:@"%@", data.ssid];
+	
+	label = (UILabel *)[cell viewWithTag:2];
+	label.text = [NSString stringWithFormat:@"%@", data.macAddress];
+	
+	label = (UILabel *)[cell viewWithTag:3];
+	label.text = [NSString stringWithFormat:@"%d", data.rssi];
     
     // Configure the cell...
-    cell.textLabel.text = [rows objectAtIndex:indexPath.row];
-	cell.textLabel.textColor = [UIColor whiteColor];
-	cell.backgroundColor = [UIColor darkGrayColor];
-	cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+    //cell.textLabel.text = [rows objectAtIndex:indexPath.row];
+	//cell.textLabel.textColor = [UIColor whiteColor];
+	//cell.backgroundColor = [UIColor darkGrayColor];
+	//cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
 	
     return cell;
 }
@@ -239,6 +254,10 @@
 		if(!alreadySeen)
 			[macAddresses addObject:macAddress];
 	}
+}
+
+- (void)addWifiDataToDictionary:(WifiData *)data {
+	[wifiDataDictionary setObject:data forKey:data.macAddress];
 }
 
 - (void)updateNetworkDetailView

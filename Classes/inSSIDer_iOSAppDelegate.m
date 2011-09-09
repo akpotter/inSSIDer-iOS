@@ -89,13 +89,13 @@
 	if(wifiScanner.isScanning) {
 		wifiScanner.isScanning = NO;
 		
-	    [myScanButton setTitle:@"Start Scanning" forState:UIControlStateNormal];
+	    [myScanButton setTitle:@"Start Scanning"];
 	}
 	else {
 		dispatch_async(myQueue, ^{ [wifiScanner startScanningNetworks]; });
 		wifiScanner.isScanning = YES;
 		
-		[myScanButton setTitle:@"Stop Scanning" forState:UIControlStateNormal];
+		[myScanButton setTitle:@"Stop Scanning"];
 	}
 
 }
@@ -126,6 +126,7 @@
 		[ntvc setRowSsid:wifiData.ssid];
 		[ntvc addToMacAddresses:mac];
 		[ntvc setNetworksObject:dataString ForKey:mac];
+		[ntvc addWifiDataToDictionary:wifiData]; 
 		[dataString release];
 	}
 	
@@ -140,7 +141,12 @@
 		wifiData = [networkData objectForKey:key];
 		if(wifiData == nil) {
 			wifiData = [[WifiData alloc] init];
-			wifiData.ssid = [[NSString alloc] initWithString:[[rawData objectForKey: key] objectForKey:@"SSID_STR"]];
+			if ([[rawData objectForKey: key] objectForKey:@"SSID_STR"]) 
+				wifiData.ssid = [[NSString alloc] initWithString:[[rawData objectForKey: key] objectForKey:@"SSID_STR"]];
+			else {
+				wifiData.ssid = [[NSString alloc] initWithString:@""];
+			}
+
 			wifiData.macAddress = key;
 			wifiData.firstSeen = [NSDate date];
 		}

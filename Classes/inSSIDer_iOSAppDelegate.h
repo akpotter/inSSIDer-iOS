@@ -34,7 +34,7 @@
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) IBOutlet NetworksTableViewController *ntvc;
 @property (nonatomic, retain) IBOutlet UIView *myMainView;
-@property (nonatomic, retain) IBOutlet UIButton *myScanButton;
+@property (nonatomic, retain) IBOutlet UIBarButtonItem *myScanButton;
 @property (nonatomic, retain) WiFiScanner *wifiScanner;
 
 @property (nonatomic, retain, readonly) NSManagedObjectContext *managedObjectContext;
