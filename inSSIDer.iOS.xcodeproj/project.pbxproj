@@ -19,6 +19,8 @@
 		B51D3C2013F5941600ABD175 /* LocationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B51D3C1F13F5941600ABD175 /* LocationController.m */; };
 		B55012F013D9FDE4006BBB76 /* NetworkDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = B55012EF13D9FDE4006BBB76 /* NetworkDetailController.m */; };
 		B567C4C4137465840053B700 /* WiFiScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = B567C4C3137465840053B700 /* WiFiScanner.m */; };
+		B56EE637141A6AF400D8457C /* WifiGraphController.m in Sources */ = {isa = PBXBuildFile; fileRef = B56EE636141A6AF400D8457C /* WifiGraphController.m */; };
+		B56EE644141A6FFD00D8457C /* WifiGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = B56EE643141A6FFD00D8457C /* WifiGraphView.m */; };
 		B5B72F7013FF073700FAF3BB /* NetworkTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5B72F6F13FF073700FAF3BB /* NetworkTableViewCell.xib */; };
 		B5B9C80C13CF4ACB0066F663 /* NetworksTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B9C80B13CF4ACB0066F663 /* NetworksTableViewController.m */; };
 		B5DB5CD713EC8FC400078F09 /* WifiData.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DB5CD613EC8FC400078F09 /* WifiData.m */; };
@@ -45,6 +47,10 @@
 		B55012EF13D9FDE4006BBB76 /* NetworkDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkDetailController.m; sourceTree = "<group>"; };
 		B567C4C2137465840053B700 /* WiFiScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WiFiScanner.h; sourceTree = "<group>"; };
 		B567C4C3137465840053B700 /* WiFiScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WiFiScanner.m; sourceTree = "<group>"; };
+		B56EE635141A6AF400D8457C /* WifiGraphController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WifiGraphController.h; sourceTree = "<group>"; };
+		B56EE636141A6AF400D8457C /* WifiGraphController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WifiGraphController.m; sourceTree = "<group>"; };
+		B56EE642141A6FFD00D8457C /* WifiGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WifiGraphView.h; path = ../WifiGraphView.h; sourceTree = "<group>"; };
+		B56EE643141A6FFD00D8457C /* WifiGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WifiGraphView.m; path = ../WifiGraphView.m; sourceTree = "<group>"; };
 		B5B72F6F13FF073700FAF3BB /* NetworkTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NetworkTableViewCell.xib; sourceTree = "<group>"; };
 		B5B9C80A13CF4ACB0066F663 /* NetworksTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetworksTableViewController.h; path = ../NetworksTableViewController.h; sourceTree = "<group>"; };
 		B5B9C80B13CF4ACB0066F663 /* NetworksTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetworksTableViewController.m; path = ../NetworksTableViewController.m; sourceTree = "<group>"; };
@@ -84,6 +90,10 @@
 				B5DB5CD613EC8FC400078F09 /* WifiData.m */,
 				B51D3C1E13F5941600ABD175 /* LocationController.h */,
 				B51D3C1F13F5941600ABD175 /* LocationController.m */,
+				B56EE635141A6AF400D8457C /* WifiGraphController.h */,
+				B56EE636141A6AF400D8457C /* WifiGraphController.m */,
+				B56EE642141A6FFD00D8457C /* WifiGraphView.h */,
+				B56EE643141A6FFD00D8457C /* WifiGraphView.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -211,6 +221,8 @@
 				B55012F013D9FDE4006BBB76 /* NetworkDetailController.m in Sources */,
 				B5DB5CD713EC8FC400078F09 /* WifiData.m in Sources */,
 				B51D3C2013F5941600ABD175 /* LocationController.m in Sources */,
+				B56EE637141A6AF400D8457C /* WifiGraphController.m in Sources */,
+				B56EE644141A6FFD00D8457C /* WifiGraphView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

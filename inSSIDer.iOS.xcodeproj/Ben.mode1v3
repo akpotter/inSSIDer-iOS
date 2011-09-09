@@ -274,7 +274,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>6</integer>
+									<integer>17</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -317,7 +317,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>NetworksTableViewController.m</string>
+								<string>WifiGraphView.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -325,11 +325,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>NetworksTableViewController.m</string>
+										<string>WifiGraphView.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>B56EE630141A68B400D8457C</string>
+										<string>B56EE75F141AC02700D8457C</string>
 										<key>history</key>
 										<array>
 											<string>B5FDB48713C7755B00D3BC60</string>
@@ -338,17 +338,22 @@
 											<string>B550131C13DA110D006BBB76</string>
 											<string>B51D3CFB13F5B48700ABD175</string>
 											<string>B51D3CFC13F5B48700ABD175</string>
-											<string>B5B72F3B13FEF19600FAF3BB</string>
 											<string>B5B72F4313FEF19600FAF3BB</string>
 											<string>B5B72F4413FEF19600FAF3BB</string>
 											<string>B5B72F5B13FEF32000FAF3BB</string>
-											<string>B5B72F6913FF064C00FAF3BB</string>
-											<string>B5BAEA0214115EA7007C4EDF</string>
 											<string>B5BAEA0314115EA7007C4EDF</string>
-											<string>B5BAEA4814117A65007C4EDF</string>
-											<string>B5BAEA4914117A65007C4EDF</string>
-											<string>B56EE61C141A685900D8457C</string>
-											<string>B56EE61D141A685900D8457C</string>
+											<string>B56EE656141A7FA500D8457C</string>
+											<string>B56EE657141A7FA500D8457C</string>
+											<string>B56EE658141A7FA500D8457C</string>
+											<string>B56EE65A141A7FA500D8457C</string>
+											<string>B56EE65B141A7FA500D8457C</string>
+											<string>B56EE65C141A7FA500D8457C</string>
+											<string>B56EE6E4141A9C9F00D8457C</string>
+											<string>B56EE6FD141AA68A00D8457C</string>
+											<string>B56EE75B141AC02700D8457C</string>
+											<string>B56EE75C141AC02700D8457C</string>
+											<string>B56EE75D141AC02700D8457C</string>
+											<string>B56EE75E141AC02700D8457C</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -546,6 +551,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>1C530D57069F1CE1000CFCEE</string>
 		<string>B56EE628141A685900D8457C</string>
 		<string>B56EE629141A685900D8457C</string>
 		<string>1CD10A99069EF8BA00B06720</string>
@@ -575,7 +581,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>NetworksTableViewController.m</string>
+								<string>inSSIDer_iOSAppDelegate.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -793,7 +799,7 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CDD528C0622207200134675</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>NetworksTableViewController.m</string>
+										<string>inSSIDer_iOSAppDelegate.m</string>
 										<key>StatusBarVisibility</key>
 										<true/>
 									</dict>
@@ -851,8 +857,8 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C530D57069F1CE1000CFCEE</string>
-				<string>B5BAE9C214115791007C4EDF</string>
-				<string>B5BAE9C314115791007C4EDF</string>
+				<string>B56EE69A141A908500D8457C</string>
+				<string>B56EE69B141A908500D8457C</string>
 				<string>1CDD528C0622207200134675</string>
 				<string>1CD0528E0623707200166675</string>
 			</array>

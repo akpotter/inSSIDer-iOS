@@ -10,6 +10,7 @@
 #import <CoreData/CoreData.h>
 #import "WiFiScanner.h"
 #import "NetworksTableViewController.h"
+#import "WifiGraphController.h"
 #import "WifiData.h"
 #import "LocationController.h"
 
@@ -19,8 +20,9 @@
     
     UIWindow *window;
 	NSNotificationCenter *nc;
-	UIView *myMainView;
+	UIScrollView *myMainScrollView;
 	dispatch_queue_t myQueue;
+	WifiGraphController *myWifiGraphController;
 	NetworksTableViewController *ntvc;
 	
 	WiFiScanner *wifiScanner;
@@ -33,7 +35,8 @@
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) IBOutlet NetworksTableViewController *ntvc;
-@property (nonatomic, retain) IBOutlet UIView *myMainView;
+@property (nonatomic, retain) IBOutlet WifiGraphController *myWifiGraphController;
+@property (nonatomic, retain) IBOutlet UIScrollView *myMainScrollView;
 @property (nonatomic, retain) IBOutlet UIBarButtonItem *myScanButton;
 @property (nonatomic, retain) WiFiScanner *wifiScanner;
 

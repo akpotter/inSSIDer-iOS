@@ -12,7 +12,8 @@
 
 @synthesize window;
 @synthesize ntvc;
-@synthesize myMainView;
+@synthesize myWifiGraphController;
+@synthesize myMainScrollView;
 @synthesize myScanButton;
 @synthesize wifiScanner;
 
@@ -27,10 +28,23 @@
 	UINavigationController *nav = [[UINavigationController alloc] init];
 	nav.navigationBar.barStyle = UIBarStyleBlackTranslucent;
 	[nav pushViewController:ntvc animated:NO];
-	nav.view.frame = myMainView.frame;
 	[ntvc release];
 	
-	[myMainView addSubview:nav.view];
+	CGRect f = nav.view.frame;
+	f.origin.x = 0;
+	f.origin.y = 0;
+	f.size = myMainScrollView.frame.size;
+	nav.view.frame = f;
+	[myMainScrollView addSubview:nav.view];
+	
+	f = myWifiGraphController.view.frame;
+	f.origin.x = self.myMainScrollView.frame.size.width;
+	f.origin.y = 0;
+	f.size = myMainScrollView.frame.size;
+	myWifiGraphController.view.frame = f;
+	[myMainScrollView addSubview:myWifiGraphController.view];
+	
+	self.myMainScrollView.contentSize = CGSizeMake(self.myMainScrollView.frame.size.width * 2, self.myMainScrollView.frame.size.height);
 	
 	networkData = [[NSMutableDictionary	alloc] init];
     wifiScanner = [[WiFiScanner alloc] init];
